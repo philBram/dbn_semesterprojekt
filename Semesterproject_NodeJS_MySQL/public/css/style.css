@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #343131;
+    color: white;
+}
+
+header {
+    height: 10%;
+    background-color: #383f59;
+    overflow: auto;
+}
+
+header h1 {
+    margin: 2.5% 5%;
+    font-size: 2em;
+}
+
+form {
+    width: 50%;
+    margin: 3% 25% 1% 25%;
+    overflow: auto;
+    background-color: rgba(253, 8, 20, 0.1);
+    border: solid 1px #000;
+}
+
+form input, select {
+    display: block;
+    margin: 3% 30%;
+    width: 40%;
+}
+
+#divTableQuery {
+    width: 80vw;
+    height: auto;
+    background-color: #383f5a;
+    color: #fff;
+    margin: 5vh 10vw;
+    display: none;
+    overflow: auto;
+}
+
+#queryHelp {
+    width: 80%;
+    margin: 0 10%;
+    overflow: auto;
+    text-align: center;
+}
+
+#queryHelp h2 {
+    font-size: 1.5em;
+}
+
+#queryHelp span {
+    color: #407a06;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    border: solid 3px #000;
+    font-size: 1.5rem;
+}
+
+table td {
+    border: solid 2px #000;
+    padding: .25% 0;
+}
+
+header nav {
+    background-color: #343131;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0.5% 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10rem 3rem;
+}
+
+#active {
+    background-color: #383f58;
+    color: #ffffff;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complex Queries</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Simple Select</a></li>
+                <li><a id="active" href="#">Complex Queries</a></li>
+            </ul>
+        </nav>
+
+        <h1>Complex Queries</h1>
+    </header>
+
+    <section>
+            <form id="selectForm">
+
+                <label for="selectQuery"></label>
+                <select name="selectQuery" id="selectQuery">
+                    <option value="0">Schüler, die in digitalisierten Räumen unterrichtet werden</option>
+                    <option value="1">Anzahl aller Schüler, die bestanden haben</option>
+                    <option value="2">Abischnitt gruppiert nach Klassennamen</option>
+                    <option value="3">Anzahl Lehrer pro Unterrichtsfachabkürzung</option>
+                    <option value="4">Anzahl Schüler pro Klasse</option>
+                    <option value="5">Anzeigen, welche Lehrer welche Klassen unterrichten</option>
+                    <option value="6">Durchschnittliche Alter der Schüler einer Klasse</option>
+                    <option value="7">Das Alter der Lehrer, die einen behindertengerechten Parklplatz haben</option>
+                    <option value="8">Anzahl aller Orte anzeigen, aus denen die Schüler kommen</option>
+                    <option value="9">Anzahl aller Orte anzeigen, aus denen die Lehrer kommen</option>
+                </select>
+
+                <input type="submit" value="submit" name="submit" id="submit">
+            </form>
+
+        <div id="queryHelp">
+        </div>
+
+        <div id="divTableQuery">
+        </div>
+    </section>
+
+    <script type="module" src="script/complexQuery.js"></script>
+</body>
+</html>

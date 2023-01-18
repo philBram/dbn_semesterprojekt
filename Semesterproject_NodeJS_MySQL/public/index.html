@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Select</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a id="active" href="index.html">Simple Select</a></li>
+                <li><a href="complexQueries.html">Complex Queries</a></li>
+            </ul>
+        </nav>
+
+        <h1>Simple Select</h1>
+    </header>
+
+    <section>
+        <form id="selectForm">
+            <label for="selectHowMany"></label>
+            <select name="selectHowMany" id="selectHowMany">
+            </select>
+
+            <label for="selectWhat"></label>
+            <select name="selectWhat" id="selectWhat">
+            </select>
+
+            <label for="selectFrom"></label>
+            <select name="selectFrom" id="selectFrom">
+            </select>
+
+            <label for="specifyQuery"></label>
+            <input type="text" name="specifyQuery" id="specifyQuery" placeholder="more precise query (not required)">
+
+            <input type="submit" value="submit" name="submit" id="submit">
+        </form>
+
+        <div id="queryHelp">
+            <h2>SELECT <span>[ATTRIBUTES] ...</span> FROM <span>[TABLENAME] ... [SPECIFY] ...</span></h2>
+        </div>
+
+        <div id="divTableQuery">
+        </div>
+    </section>
+
+    <script type="module" src="script/simpleSelect.js"></script>
+</body>
+</html>
